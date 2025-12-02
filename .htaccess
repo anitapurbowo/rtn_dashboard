@@ -1,10 +1,19 @@
+php_value upload_max_filesize 150M
+php_value post_max_size 155M
+
 Options -Indexes
 
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
-    # JIKA FILE ASLI ADA (global.php, css, js), JANGAN REWRITE
+    # Jika file atau folder beneran ADA (global.php, ping.php, css, js), 
+    # JANGAN di-rewrite, langsung layani saja.
     RewriteCond %{REQUEST_FILENAME} -f [OR]
     RewriteCond %{REQUEST_FILENAME} -d
     RewriteRule ^ - [L]
+
+    # Kalau tidak pakai routing sama sekali, baris di bawah ini boleh DIHAPUS.
+    # RewriteRule ^ index.php [L,QSA]
 </IfModule>
+
+DirectoryIndex index.php index.html
