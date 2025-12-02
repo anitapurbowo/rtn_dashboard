@@ -1,8 +1,12 @@
-php_value upload_max_filesize 150M
-php_value post_max_size 155M
-
-RewriteEngine on
-RewriteCond $1 !^(index\.php|resources|robots\.txt)
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+php_value upload_max_filesize 150M
+php_value post_max_size 155M
+
+# Matikan rewrite untuk sementara (atau hapus saja)
+# RewriteEngine on
+# RewriteCond $1 !^(index\.php|resources|robots\.txt)
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+
+# Optional, set default file
+DirectoryIndex index.php index.html
