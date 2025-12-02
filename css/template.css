@@ -1,0 +1,111 @@
+        :root{
+            /* light theme variables (existing) */
+            --bg: #EEEEEE;
+            --card: #ffffff;
+            --line: rgba(133,161,143,0.14);
+            --text: #0f2a1f;
+            --muted: #6b7b6c;
+            --table-head: #3e5f44; /*#3d8d7a;*/
+            --title-header:#3d8d7a;
+            --accent: #85a98f;
+            --accent-dark: #2c6b56;
+            --shadow-sm: 0 8px 20px rgba(34,50,30,0.04);
+            --color-text-light: rgba(0,0,0,0.55);
+            --color-text-button: #FFF;
+            --summary-title: #06323A;
+            --bg-topbar: #DDF6D2;
+            --bg-toolbar-warning: #F2613F;
+            /* --page-bg-gradient: linear-gradient(180deg, #f8fdf8 0%, #f0f9f3 100%); */
+        }
+
+        [data-theme="dark"]{
+            --bg: #44444E;
+            --card: #0f1616;
+            --line: rgba(255,255,255,0.06);
+            --text: #E8F7EF;        /* primary body text (light) */
+            --muted: #b7d6c6;       /* muted text (still readable) */
+            --table-head: #1f3b34;  
+            --title-header:#D3ECCD;
+            --accent: #2ea37a;
+            --accent-dark: #9ef0c3; /* highlight numbers */
+            --shadow-sm: 0 14px 36px rgba(0,0,0,0.6);
+            --color-text-light: rgba(255,255,255,0.72);
+            --color-text-button: #000;
+            --summary-title: #f3fdff;
+            --bg-topbar: #003C43;
+            --bg-toolbar-warning: #F2613F;
+            /* --page-bg-gradient: linear-gradient(180deg, #071010 0%, #0a1412 100%); */
+        }
+
+        [data-theme="dark"] .fa-solid, [data-theme="dark"] .bi {
+            filter: brightness(1.1) saturate(0.9);
+        }
+
+        [data-theme="dark"] table.dataTable thead th {
+            background: linear-gradient(180deg, rgba(34,70,60,0.9), rgba(12,40,32,0.9)) !important;
+        }
+        [data-theme="dark"] canvas { /* not direct color change but keep contrast */ }
+
+        :focus { outline: 3px solid rgba(46,163,122,0.14); outline-offset: 2px; }
+
+        .badge-small { background: rgba(46,163,122,0.12); color: var(--accent-dark); }
+        /* Base */
+        html,body { height:100%; margin:0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background:  var(--bg); color:var(--text); -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; }
+        .wrap { max-width:97%; margin:12px auto; padding:6px; }
+
+        /* Topbar */
+        .topbar { display:flex; gap:10px; align-items:center; justify-content:space-between; background: var(--bg-topbar); padding:12px; border-radius:12px; box-shadow:var(--shadow-sm); border:1px solid var(--line); flex-wrap:wrap; margin-bottom:12px; }
+        .brand { display:flex; gap:12px; align-items:center; }
+        .brand img{ width:48px; height:42px; object-fit:contain; }
+        .brand h1{ margin:0; font-size:18px; color:var(--title-header); }
+        .brand small{ display:block; font-size:13px; color:var(--muted); margin-top:2px; }
+
+        .top-actions { display:flex; gap:8px; align-items:center; margin-left:auto; }
+        .btn { background:var(--accent-dark); color:var(--color-text-button); border:0; padding:8px 12px; border-radius:8px; cursor:pointer; font-weight:600; }
+        .toolbar-warning { width:100%; margin-top:10px; padding:10px 12px; border-radius:10px; background:var(--bg-toolbar-warning); color:#fff; font-weight:700; font-size:13px; text-align:left; border:1px solid rgba(0,0,0,0.03); box-shadow: 0 10px 30px rgba(16,138,110,0.06); }
+
+        body.modal-open { overflow: hidden; }
+
+        /* Table card */
+        .table-card { background: var(--card); padding:12px; margin-bottom:14px; border-radius:12px; box-shadow: var(--shadow-sm); border:1px solid var(--line); }
+        .section-title { font-size:16px; font-weight:700; color:var(--title-header); margin-bottom:8px; display:block; }
+
+        /* Kecilkan tombol Excel (DataTables Buttons) */
+        .dt-button {
+            font-size: 11px !important;
+            padding: 3px 8px !important;
+            border-radius: 4px !important;
+            line-height: 1 !important;
+        }
+
+        .dt-button .bi {
+            font-size: 12px !important; /* kecilkan icon */
+            margin-right: 4px;
+        }
+
+        /* Jika ingin tombol lebih kompak lagi */
+        button.dt-button {
+            height: 26px !important;
+        }
+
+        .wrap-col { white-space: normal !important; word-break: break-word; max-width:520px; }
+
+        .dataTables_info {
+            font-size: 11px;
+            color: var(--muted);
+        }
+        .dataTables_paginate .paginate_button {
+            font-size: 12px;
+            padding: 6px 10px;
+        }
+
+        .dataTables_filter input[type="search"] {
+            font-size: 11px;         /* ukuran teks di input */
+            padding: 5px 8px;
+            height: 30px;
+            line-height: 1;
+            border-radius: 6px;
+            border: 1px solid var(--line);
+            background: transparent;
+            color: var(--text);
+        }

@@ -1,0 +1,22 @@
+[21-Nov-2025 09:23:43 UTC] PHP Fatal error:  Cannot redeclare formatRupiah() (previously declared in /DATA/ptrutani/public_html/dashboard/global_func.php:104) in /DATA/ptrutani/public_html/dashboard/salesorder/detailsoopen/getsoopen.php on line 13
+[21-Nov-2025 09:24:19 UTC] PHP Deprecated:  substr(): Passing null to parameter #1 ($string) of type string is deprecated in /DATA/ptrutani/public_html/dashboard/salesorder/detailsoopen/detailSO_dev.php on line 1223
+[21-Nov-2025 09:25:14 UTC] PHP Deprecated:  substr(): Passing null to parameter #1 ($string) of type string is deprecated in /DATA/ptrutani/public_html/dashboard/salesorder/detailsoopen/detailSO_dev.php on line 1045
+[21-Nov-2025 09:25:18 UTC] PHP Deprecated:  substr(): Passing null to parameter #1 ($string) of type string is deprecated in /DATA/ptrutani/public_html/dashboard/salesorder/detailsoopen/detailSO_dev.php on line 1045
+[21-Nov-2025 09:35:33 UTC] PHP Deprecated:  substr(): Passing null to parameter #1 ($string) of type string is deprecated in /DATA/ptrutani/public_html/dashboard/salesorder/detailsoopen/detailSO_dev.php on line 1045
+[21-Nov-2025 09:58:21 UTC] PHP Deprecated:  substr(): Passing null to parameter #1 ($string) of type string is deprecated in /DATA/ptrutani/public_html/dashboard/salesorder/detailsoopen/detailSO.php on line 1045
+[21-Nov-2025 10:00:09 UTC] PHP Deprecated:  substr(): Passing null to parameter #1 ($string) of type string is deprecated in /DATA/ptrutani/public_html/dashboard/salesorder/detailsoopen/detailSO.php on line 1045
+[21-Nov-2025 10:00:20 UTC] PHP Deprecated:  substr(): Passing null to parameter #1 ($string) of type string is deprecated in /DATA/ptrutani/public_html/dashboard/salesorder/detailsoopen/detailSO.php on line 1045
+[21-Nov-2025 10:01:19 UTC] PHP Deprecated:  substr(): Passing null to parameter #1 ($string) of type string is deprecated in /DATA/ptrutani/public_html/dashboard/salesorder/detailsoopen/detailSO.php on line 1045
+[21-Nov-2025 10:04:20 UTC] PHP Warning:  Undefined variable $post_data in /DATA/ptrutani/public_html/dashboard/salesorder/detailsoopen/detailSO.php on line 1007
+[21-Nov-2025 10:04:20 UTC] PHP Deprecated:  substr(): Passing null to parameter #1 ($string) of type string is deprecated in /DATA/ptrutani/public_html/dashboard/salesorder/detailsoopen/detailSO.php on line 1047
+[21-Nov-2025 10:04:45 UTC] PHP Warning:  Undefined variable $post_data in /DATA/ptrutani/public_html/dashboard/salesorder/detailsoopen/detailSO.php on line 1007
+[21-Nov-2025 10:04:45 UTC] PHP Deprecated:  substr(): Passing null to parameter #1 ($string) of type string is deprecated in /DATA/ptrutani/public_html/dashboard/salesorder/detailsoopen/detailSO.php on line 1047
+[21-Nov-2025 10:06:10 UTC] PHP Warning:  Array to string conversion in /DATA/ptrutani/public_html/dashboard/salesorder/detailsoopen/detailSO.php on line 1007
+[21-Nov-2025 10:06:10 UTC] PHP Deprecated:  substr(): Passing null to parameter #1 ($string) of type string is deprecated in /DATA/ptrutani/public_html/dashboard/salesorder/detailsoopen/detailSO.php on line 1046
+[21-Nov-2025 10:06:45 UTC] PHP Deprecated:  substr(): Passing null to parameter #1 ($string) of type string is deprecated in /DATA/ptrutani/public_html/dashboard/salesorder/detailsoopen/detailSO.php on line 1046
+[21-Nov-2025 10:08:39 UTC] PHP Deprecated:  substr(): Passing null to parameter #1 ($string) of type string is deprecated in /DATA/ptrutani/public_html/dashboard/salesorder/detailsoopen/detailSO.php on line 1047
+[21-Nov-2025 10:09:02 UTC] PHP Deprecated:  substr(): Passing null to parameter #1 ($string) of type string is deprecated in /DATA/ptrutani/public_html/dashboard/salesorder/detailsoopen/detailSO.php on line 1047
+[21-Nov-2025 10:09:18 UTC] PHP Deprecated:  substr(): Passing null to parameter #1 ($string) of type string is deprecated in /DATA/ptrutani/public_html/dashboard/salesorder/detailsoopen/detailSO.php on line 1047
+[21-Nov-2025 10:09:39 UTC] PHP Deprecated:  substr(): Passing null to parameter #1 ($string) of type string is deprecated in /DATA/ptrutani/public_html/dashboard/salesorder/detailsoopen/detailSO.php on line 1047
+[21-Nov-2025 10:10:44 UTC] PHP Deprecated:  substr(): Passing null to parameter #1 ($string) of type string is deprecated in /DATA/ptrutani/public_html/dashboard/salesorder/detailsoopen/detailSO.php on line 824
+[21-Nov-2025 10:11:31 UTC] PHP Deprecated:  substr(): Passing null to parameter #1 ($string) of type string is deprecated in /DATA/ptrutani/public_html/dashboard/salesorder/detailsoopen/detailSO.php on line 824

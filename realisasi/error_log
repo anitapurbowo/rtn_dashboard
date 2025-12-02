@@ -1,0 +1,8 @@
+[07-Oct-2025 07:05:24 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /DATA/ptrutani/public_html/dashboard/realisasi/detailrealisasi.php on line 15
+[07-Oct-2025 07:05:32 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /DATA/ptrutani/public_html/dashboard/realisasi/detailrealisasi.php on line 15
+[07-Oct-2025 07:05:44 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /DATA/ptrutani/public_html/dashboard/realisasi/detailrealisasi.php on line 15
+[07-Oct-2025 07:10:41 UTC] PHP Warning:  Undefined array key "bln" in /DATA/ptrutani/public_html/dashboard/realisasi/detailrealisasi.php on line 3
+[07-Oct-2025 07:10:52 UTC] PHP Warning:  Undefined array key "bln" in /DATA/ptrutani/public_html/dashboard/realisasi/detailrealisasi.php on line 3
+[07-Oct-2025 07:11:11 UTC] PHP Warning:  Undefined array key "bln" in /DATA/ptrutani/public_html/dashboard/realisasi/detailrealisasi.php on line 3
+[07-Oct-2025 07:12:48 UTC] PHP Warning:  Undefined array key "bln" in /DATA/ptrutani/public_html/dashboard/realisasi/detailrealisasi.php on line 3
+[07-Oct-2025 07:13:02 UTC] PHP Warning:  Undefined array key "bln" in /DATA/ptrutani/public_html/dashboard/realisasi/detailrealisasi.php on line 3

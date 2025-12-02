@@ -1,0 +1,40 @@
+[13-Jun-2025 03:34:35 UTC] PHP Warning:  Undefined array key "thn" in /DATA/ptrutani/public_html/dashboard/detailINV.php on line 5
+[13-Jun-2025 03:34:37 UTC] PHP Warning:  Undefined array key "thn" in /DATA/ptrutani/public_html/dashboard/detailINV.php on line 5
+[13-Jun-2025 03:34:56 UTC] PHP Warning:  Undefined array key "thn" in /DATA/ptrutani/public_html/dashboard/detailINV.php on line 5
+[13-Jun-2025 03:35:19 UTC] PHP Warning:  Undefined array key "thn" in /DATA/ptrutani/public_html/dashboard/detailINV.php on line 5
+[13-Jun-2025 03:56:24 UTC] PHP Warning:  Undefined array key "thn" in /DATA/ptrutani/public_html/dashboard/detailINV.php on line 5
+[13-Jun-2025 06:23:33 UTC] PHP Warning:  Undefined array key "thn" in /DATA/ptrutani/public_html/dashboard/detailINV.php on line 5
+[13-Jun-2025 08:51:27 UTC] PHP Warning:  Undefined array key "thn" in /DATA/ptrutani/public_html/dashboard/detailINV.php on line 5
+[13-Oct-2025 08:00:30 UTC] PHP Warning:  Undefined variable $getCab in /DATA/ptrutani/public_html/dashboard/detailINV.php on line 13
+[13-Oct-2025 08:00:33 UTC] PHP Warning:  Undefined variable $getCab in /DATA/ptrutani/public_html/dashboard/detailINV.php on line 13
+[13-Oct-2025 08:21:56 UTC] PHP Warning:  Undefined variable $getCab in /DATA/ptrutani/public_html/dashboard/detailINV.php on line 13
+[13-Oct-2025 08:23:40 UTC] PHP Warning:  Undefined variable $getCab in /DATA/ptrutani/public_html/dashboard/detailINV.php on line 13
+[13-Oct-2025 08:37:20 UTC] PHP Warning:  Undefined variable $getCab in /DATA/ptrutani/public_html/dashboard/detailINV.php on line 13
+[13-Oct-2025 08:51:13 UTC] PHP Warning:  Undefined variable $getCab in /DATA/ptrutani/public_html/dashboard/detailINV.php on line 20
+[13-Oct-2025 08:52:05 UTC] PHP Warning:  Undefined variable $getCab in /DATA/ptrutani/public_html/dashboard/detailINV.php on line 20
+[13-Oct-2025 08:54:51 UTC] PHP Warning:  Undefined variable $getCab in /DATA/ptrutani/public_html/dashboard/detailINV.php on line 20
+[13-Oct-2025 09:04:32 UTC] PHP Warning:  Undefined variable $getCab in /DATA/ptrutani/public_html/dashboard/detailINV.php on line 20
+[13-Oct-2025 09:30:42 UTC] PHP Warning:  Undefined variable $getCab in /DATA/ptrutani/public_html/dashboard/detailINV.php on line 13
+[13-Oct-2025 09:30:53 UTC] PHP Warning:  Undefined variable $getCab in /DATA/ptrutani/public_html/dashboard/detailINV.php on line 13
+[13-Oct-2025 10:35:48 UTC] PHP Warning:  Undefined variable $getCab in /DATA/ptrutani/public_html/dashboard/detailINV.php on line 13
+[13-Oct-2025 10:54:12 UTC] PHP Warning:  Undefined variable $getCab in /DATA/ptrutani/public_html/dashboard/detailINV.php on line 13
+[14-Oct-2025 00:49:36 UTC] PHP Warning:  Undefined variable $getCab in /DATA/ptrutani/public_html/dashboard/detailINV.php on line 20
+[14-Oct-2025 00:50:18 UTC] PHP Warning:  Undefined variable $getCab in /DATA/ptrutani/public_html/dashboard/detailINV.php on line 20
+[14-Oct-2025 00:58:28 UTC] PHP Warning:  Undefined variable $getCab in /DATA/ptrutani/public_html/dashboard/detailINV.php on line 20
+[14-Oct-2025 00:59:14 UTC] PHP Warning:  Undefined variable $getCab in /DATA/ptrutani/public_html/dashboard/detailINV.php on line 20
+[14-Oct-2025 00:59:47 UTC] PHP Warning:  Undefined variable $getCab in /DATA/ptrutani/public_html/dashboard/detailINV.php on line 20
+[14-Oct-2025 03:57:48 UTC] PHP Warning:  Undefined variable $getCab in /DATA/ptrutani/public_html/dashboard/detailINV.php on line 13
+[14-Oct-2025 05:25:47 UTC] PHP Warning:  Undefined variable $getCab in /DATA/ptrutani/public_html/dashboard/detailINV.php on line 13
+[14-Oct-2025 06:18:35 UTC] PHP Warning:  Undefined variable $getCab in /DATA/ptrutani/public_html/dashboard/detailINV.php on line 13
+[14-Oct-2025 06:21:29 UTC] PHP Warning:  Undefined variable $getCab in /DATA/ptrutani/public_html/dashboard/detailINV.php on line 13
+[12-Nov-2025 04:56:09 UTC] PHP Warning:  require_once(/DATA/ptrutani/public_html/dashboard./token_tool.php): Failed to open stream: No such file or directory in /DATA/ptrutani/public_html/dashboard/token_generate.php on line 2
+[12-Nov-2025 04:56:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/DATA/ptrutani/public_html/dashboard./token_tool.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /DATA/ptrutani/public_html/dashboard/token_generate.php:2
+Stack trace:
+#0 {main}
+  thrown in /DATA/ptrutani/public_html/dashboard/token_generate.php on line 2
+[12-Nov-2025 04:56:23 UTC] PHP Warning:  require_once(/DATA/ptrutani/public_html/dashboard./token_tool.php): Failed to open stream: No such file or directory in /DATA/ptrutani/public_html/dashboard/token_generate.php on line 2
+[12-Nov-2025 04:56:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/DATA/ptrutani/public_html/dashboard./token_tool.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /DATA/ptrutani/public_html/dashboard/token_generate.php:2
+Stack trace:
+#0 {main}
+  thrown in /DATA/ptrutani/public_html/dashboard/token_generate.php on line 2
+[12-Nov-2025 06:38:39 UTC] PHP Warning:  Undefined variable $default_ttl in /DATA/ptrutani/public_html/dashboard/token_generate.php on line 44
