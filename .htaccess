@@ -6,13 +6,13 @@ Options -Indexes
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
-    # Jika file atau folder beneran ADA (global.php, ping.php, css, js), 
-    # JANGAN di-rewrite, langsung layani saja.
+    # Kalau file atau folder BENERAN ada (global.php, css, js, dll),
+    # jangan di-rewrite. Layani apa adanya.
     RewriteCond %{REQUEST_FILENAME} -f [OR]
     RewriteCond %{REQUEST_FILENAME} -d
     RewriteRule ^ - [L]
 
-    # Kalau tidak pakai routing sama sekali, baris di bawah ini boleh DIHAPUS.
+    # Kalau kamu TIDAK PAKAI sistem routing, baris ini boleh dikomentari / dihapus
     # RewriteRule ^ index.php [L,QSA]
 </IfModule>
 
