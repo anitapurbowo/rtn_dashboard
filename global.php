@@ -1,5 +1,9 @@
 <?php
 
+header('Cache-Control: no-cache');
+header('Access-Control-Allow-Origin: *');
+header('Pragma: no-cache');
+
 // if( $_SERVER['REQUEST_SCHEME']=='https' ){
 //     header("location: http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
 //     exit(1);
