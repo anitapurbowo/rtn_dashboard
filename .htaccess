@@ -1,8 +1,10 @@
-php_value upload_max_filesize 150M
-php_value post_max_size 155M
-
-# Jangan tampilkan daftar folder
 Options -Indexes
 
-# Jadikan global.php sebagai halaman default
-DirectoryIndex global.php aai.php age.php accd.php index.php index.html
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # JIKA FILE ASLI ADA (global.php, css, js), JANGAN REWRITE
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
+</IfModule>
